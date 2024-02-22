@@ -1,0 +1,32 @@
+Objective:Build a simple task management application using React for the frontend, Express.js
+for the backend, and a SQL database (e.g., SQL, PSQL, SQL lite, etc) for data storage.
+Requirements:
+
+1. Backend (Express.js):
+● Create a RESTful API for managing tasks.
+● Implement endpoints for:Retrieving all tasks
+● Adding a new task
+● Updating a task's status (completed or not)
+● Deleting a task
+
+Database (SQL):
+2. Create a "tasks" table with the following columns:
+● id (auto-incrementing primary key)
+● title (string)
+● description (string)
+● completed (boolean)
+
+
+3. Frontend (React):
+Create a simple UI with the following features:
+● Display a list of tasks with their titles, descriptions, and completion status.
+● Provide a form to add a new task.
+● Include a button to mark a task as completed or not.
+● Implement a button to delete a task.
+Additional Requirements:
+● Use state management in React to handle the list of tasks.
+● Ensure proper error handling for API requests.
+Notes:
+● Focus on code readability, structure, and best practices.
+● You can use any additional libraries or tools you find appropriate.
+● Include instructions on how to set up and run the application
