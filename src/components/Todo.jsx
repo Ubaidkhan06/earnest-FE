@@ -20,12 +20,13 @@ const Todo = ({
   description,
   completed: status,
   handleDeleteTask,
+  url
 }) => {
   const [completed, setCompleted] = useState(status);
 
   const handleStatusChange = async () => {
     try {
-      const res = await axios.put(`http://localhost:8000/tasks/${id}`);
+      const res = await axios.put(`${url}/tasks/${id}`);
       if (res.data.success) {
         setCompleted(!completed);
         toast.success("Task status changed succesfully");
